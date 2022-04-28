@@ -1,0 +1,13 @@
+.search {
+  width: 80%;
+  margin: 20px auto;
+}
+input {
+  min-width: 80%;
+  padding: 10px 15px;
+}
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+    
