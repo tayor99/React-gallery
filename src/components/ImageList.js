@@ -3,7 +3,6 @@ import '../Styles/imagelist.css';
 
 const ImageList = ({ pictures, text }) => {
   const display = pictures.filter((allPics) => {
-    // console.log(allPics.name.);
     return allPics.name.toLowerCase().includes(text);
   });
 
